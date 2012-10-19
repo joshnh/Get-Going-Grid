@@ -1,0 +1,64 @@
+html {
+    font-size: 100%; /* 16 */
+}
+.grid-wrap {
+    margin: 3rem auto;
+    max-width: 60rem; /* 960 */
+}
+.grid {
+    font-size: 0; /* Removes the margin introduced by using inline-block. Remember to set a font-size on child elements. */
+    margin-left: -2.5%;
+    margin-top: -2.5%;
+}
+div[class*="col-"] {
+    border-radius: .25rem; /* 4 */
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    padding: 1.5rem 0; /* 24 0 */
+    position: relative;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@media (min-width: 40em) { /* 640 */
+    div[class*="col-"] {
+        display: inline-block;
+    }    
+    .col-100 {
+        width: 97.5%;
+    }
+    .col-80 {
+        width: 77.5%;
+    }
+    .col-75 {
+        width: 72.5%;
+    }
+    .col-70 {
+        width: 67.5%;
+    }
+    .col-66 {
+        width: 64.166666666%;
+    }
+    .col-60 {
+        width: 57.5%;
+    }
+    .col-50 {
+        width: 47.5%;
+    }
+    .col-40 {
+        width: 37.5%;
+    }
+    .col-33 {
+        width: 30.833333333%;
+    }
+    .col-30 {
+        width: 27.5%;
+    }
+    .col-25 {
+        width: 22.5%;
+    }
+    .col-20 {
+        width: 17.5%;
+    }
+}​
