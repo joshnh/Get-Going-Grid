@@ -1,4 +1,4 @@
-Get-Going-Grid
+Get Going Grid
 ==============
 
 A simple mobile first grid
