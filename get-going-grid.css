@@ -2,9 +2,9 @@ html {
     font-size: 100%; /* 16 */
 }
 .grid-wrap {
-    margin: 48px auto;
+    margin: 48px auto; /* Fallback for IE8 */
     margin: 3rem auto; /* 48 auto */
-    max-width: 960px;
+    max-width: 960px; /* Fallback for IE8 */
     max-width: 60rem; /* 960 */
 }
 .grid {
@@ -13,11 +13,11 @@ html {
     margin-top: -2.5%;
 }
 div[class*="col-"] {
-    border-radius: .4px;
+    border-radius: .4px; /* Fallback for IE8 */
     border-radius: .25rem; /* 4 */
     margin-left: 2.5%;
     margin-top: 2.5%;
-    padding: 24px 0;
+    padding: 24px 0; /* Fallback for IE8 */
     padding: 1.5rem 0; /* 24 0 */
     position: relative;
     vertical-align: top;
