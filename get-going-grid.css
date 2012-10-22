@@ -11,21 +11,13 @@
     font-size: 1rem; /* Resets the font-size on child elements */
 }
 div[class*="col-"] {
-    border-radius: .4px; /* Fallback for IE8 */
-    border-radius: .25rem; /* 4 */
     margin-bottom: 2.5%;
     margin-left: 2.5%;
-    padding: 24px 0; /* Fallback for IE8 */
-    padding: 1.5rem 0; /* 24 0 */
-    position: relative;
-    vertical-align: top;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
 }
 @media (min-width: 40em) { /* 640 */
     div[class*="col-"] {
         display: inline-block;
+        vertical-align: top;
     }    
     .col-100 { width: 97.5%; }
     .col-80 { width: 77.5%; }
