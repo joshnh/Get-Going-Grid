@@ -7,18 +7,20 @@ To use the grid you will need a parent element with a class of `grid`. Columns a
 
 The available widths are:
 
-* 100
-* 80
-* 75
-* 70
-* 66
-* 60
-* 50
-* 40
-* 33
-* 30
-* 25
-* 20
+| Width | Class |
+|-------|-------|
+| 20%  | `.col-20` |
+| 25%  | `.col-25` |
+| 30%  | `.col-30` |
+| 33.3%  | `.col-33` |
+| 40%  | `.col-40` |
+| 50%  | `.col-50` |
+| 60%  | `.col-60` |
+| 66.6%  | `.col-66` |
+| 70%  | `.col-70` |
+| 75%  | `.col-75` |
+| 80%  | `.col-80` |
+| 100%  | `.col-100` |
 
 Live demo: http://jsfiddle.net/joshnh/fcKcW/
 
