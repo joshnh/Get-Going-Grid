@@ -12,7 +12,7 @@
 [class*="col-"] {
     margin-left: 2.5%;
 }
-@media (min-width: 40rem) { /* 640 */
+@media (min-width: 40em) { /* 640 */
     [class*="col-"] {
         display: inline-block;
         vertical-align: top;
