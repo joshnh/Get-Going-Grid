@@ -21,3 +21,5 @@ The available widths are:
 * 20
 
 Live demo: http://jsfiddle.net/joshnh/fcKcW/
+
+Note: this will not work in IE7.
