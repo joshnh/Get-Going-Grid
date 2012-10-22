@@ -11,6 +11,9 @@
 }
 [class*="col-"] {
     margin-left: 2.5%;
+    -webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 @media (min-width: 40em) { /* 640 */
     [class*="col-"] {
