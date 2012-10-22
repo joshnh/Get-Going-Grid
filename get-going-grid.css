@@ -9,14 +9,18 @@ html {
 }
 .grid {
     font-size: 0; /* Removes the margin introduced by using inline-block. Remember to set a font-size on child elements. */
-    margin-left: -2.5%;
-    margin-top: -2.5%;
+    left: -1.25%; /* Centres the container */
+    margin: 48px auto; /* Fallback for IE8 */
+    margin: 3rem auto; /* 48 auto */
+    max-width: 960px; /* Fallback for IE8 */
+    max-width: 60rem; /* 960 */
+    position: relative;
 }
 div[class*="col-"] {
     border-radius: .4px; /* Fallback for IE8 */
     border-radius: .25rem; /* 4 */
+    margin-bottom: 2.5%;
     margin-left: 2.5%;
-    margin-top: 2.5%;
     padding: 24px 0; /* Fallback for IE8 */
     padding: 1.5rem 0; /* 24 0 */
     position: relative;
