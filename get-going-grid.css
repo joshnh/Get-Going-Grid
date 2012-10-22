@@ -1,7 +1,8 @@
 .grid {
     font-size: 0; /* Removes the margin introduced by using inline-block */
     margin: 0 auto;
-    max-width: 70em; /* 1120 */
+    max-width: 1120px; /* Fallback for IE8 */
+    max-width: 70rem; /* 1120 */
     padding-right: 2.5%;
 }
 .grid > * {
