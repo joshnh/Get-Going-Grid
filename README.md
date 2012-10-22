@@ -21,3 +21,5 @@ The available widths are:
 * 20
 
 Live demo: http://jsfiddle.net/joshnh/fcKcW/
+
+_Note: make sure that you are using the `grid` and `col-{width}` classes on block level elements.
