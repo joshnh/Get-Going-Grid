@@ -1,21 +1,20 @@
 .grid {
     font-size: 0; /* Removes the margin introduced by using inline-block */
-    left: -1.25%; /* Centres the container */
     margin: 0 auto; /* Fallback for IE8 */
     margin: 0 auto; /* 0 auto */
     max-width: 1120px; /* Fallback for IE8 */
     max-width: 70rem; /* 1120 */
-    position: relative;
+    padding-right: 2.5%;
 }
 .grid > * {
     font-size: 1rem; /* Resets the font-size on child elements */
 }
-div[class*="col-"] {
+[class*="col-"] {
     margin-bottom: 2.5%;
     margin-left: 2.5%;
 }
 @media (min-width: 40em) { /* 640 */
-    div[class*="col-"] {
+    [class*="col-"] {
         display: inline-block;
         vertical-align: top;
     }    
