@@ -3,7 +3,7 @@
     margin: 0 auto;
     max-width: 1120px; /* Fallback for IE8 */
     max-width: 70rem; /* 1120 */
-    padding-right: 2.5%;
+    padding-right: 2%;
 }
 .grid > * {
     font-size: 16px; /* Fallback for IE8 */
