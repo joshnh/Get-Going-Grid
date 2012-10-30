@@ -1,17 +1,13 @@
 .grid {
-    font-size: 0; /* Removes the margin introduced by using inline-block */
+    letter-spacing: -.25em; /* Removes the margin introduced by using inline-block */
     margin-left: auto;
     margin-right: auto;
-    max-width: 1120px; /* Fallback for IE8 */
-    max-width: 70rem; /* 1120 */
+    max-width: 70em; /* 1120 */
     padding-left: 1%;
     padding-right: 1%;
 }
-.grid > * {
-    font-size: 16px; /* Fallback for IE8 */
-    font-size: 1rem; /* Resets the font-size on child elements */
-}
 [class*="grid__col--"] {
+    letter-spacing: 0;
     margin-left: 1.25%;
     margin-right: 1.25%;
     -webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
@@ -22,6 +18,9 @@
     [class*="grid__col--"] {
         display: inline-block;
         vertical-align: top;
+        /* Fix for IE7 */
+        zoom: 1;
+        *display: inline;
     }   
     .grid__col--20  { width: 17.5%; }
     .grid__col--25  { width: 22.5%; }
