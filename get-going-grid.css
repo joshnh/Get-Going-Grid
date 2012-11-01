@@ -18,9 +18,8 @@
     [class*="grid__col--"] {
         display: inline-block;
         vertical-align: top;
-        /* Fix for IE7 */
-        zoom: 1;
-        *display: inline;
+        zoom: 1; /* Fix for IE7 */
+        *display: inline; /* Fix for IE7 */
     }   
     .grid__col--20  { width: 17.5%; }
     .grid__col--25  { width: 22.5%; }
