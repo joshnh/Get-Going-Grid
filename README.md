@@ -1,7 +1,7 @@
 Get Going Grid
 ==============
 
-__A simple, lightweight, and responsive, mobile first grid.__
+__A lightweight, mobile first grid.__
 
 To use the grid you will need a parent element with a class of `grid`. Columns are then implemented by using a class equal to the desired percentage width (`grid__col--{width}`).
 
