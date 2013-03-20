@@ -5,6 +5,8 @@ __A simple, lightweight, and responsive, mobile first grid.__
 
 To use the grid you will need a parent element with a class of `grid`. Columns are then implemented by using a class equal to the desired percentage width (`grid__col--{width}`).
 
+Also, and this is _important_, due to the use of inline-block you will need to comment out the white space between the column elements. This is the most consistent way to deal with this space.
+
 The available widths are:
 
 | Width  | Class             |
